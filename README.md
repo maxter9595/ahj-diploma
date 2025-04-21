@@ -40,13 +40,30 @@ npm install
 yarn start
 ```
 
-## Установка и запуск проекта с деплоем
+Загрузка проекта и его запуск относительно localhost:
+
+![](./readme-images/motions/setup.gif)
+
+## Сервер и деплой. Запуск проекта с сервером
 
 ![CI](https://github.com/maxter9595/ahj-diploma/actions/workflows/web.yml/badge.svg)
 
-Server: [https://ahj-diploma-6967.onrender.com](https://ahj-diploma-6967.onrender.com)
+Server: [https://ahj-diploma-6967.onrender.com](https://ahj-diploma-6967.onrender.com) (порт 10000)
 
 Deployment: Github Pages
+
+![](./readme-images/motions/server-1.gif)
+
+Запуск проекта относительно веб-сервера (render.com). В этом случае просто: 
+
+• убираем переменные окружения, если они есть
+
+• убеждаемся в наличии необходимых ссылок для подключения к веб-серверу. В самом коде пример уже приведен по умолчанию
+
+• Запускаем фронтенд с рабочим веб-сервером
+
+![](./readme-images/motions/server-2.gif)
+
 
 
 ## Вход в приложение

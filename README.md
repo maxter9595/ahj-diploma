@@ -7,7 +7,15 @@ git clone https://github.com/maxter9595/ahj-diploma.git
 cd ahj-diploma
 ```
 
-Шаг 2. Запуск бэкенда
+Шаг 2. Настройка env и запуск бэкенда
+
+Пример для бэкенда (папка backend, см. .env.example):
+
+```
+PORT=10000
+```
+
+Запуск серверной части:
 
 ```
 cd backend
@@ -15,32 +23,28 @@ npm install         # Установка зависимостей
 node server.js      # Запуск сервера
 ```
 
-Шаг 3. Запуск фронта
+Шаг 3. Настройка env и запуск фронтенда
+
+Пример для фронтенда (папка frontend, см. .env.example):
+
+```
+BASE_URL=http://localhost:10000
+WS_URL=ws://localhost:10000
+```
+
+Запуск фронтенда:
 
 ```
 cd frontend
-npm install         # Установка зависимостей
-yarn start          # Запуск фронтовой части
-```
-
-В процессе реализации шагов 2 и 3 можно задать переменные окружения.
-
-Пример для бэкенда (папка backend):
-```
-PORT=11111
-```
-
-Пример для фронтенда (папка frontend):
-```
-BASE_URL=http://localhost:11111
-WS_URL=ws://localhost:11111
+npm install
+yarn start
 ```
 
 ## Установка и запуск проекта с деплоем
 
-![CI](https://github.com/maxter9595/ahj-homeworks-12-3/actions/workflows/web.yml/badge.svg)
+![CI](https://github.com/maxter9595/ahj-diploma/actions/workflows/web.yml/badge.svg)
 
-Server: [Render.com](https://render.com/)
+Server: [https://ahj-diploma-6967.onrender.com](https://ahj-diploma-6967.onrender.com)
 
 Deployment: Github Pages
 

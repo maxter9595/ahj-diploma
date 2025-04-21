@@ -33,7 +33,7 @@ export default class MainPage {
     this.container = element;
     this.baseURL = baseURL;
     // this.wsURL = process.env.WS_URL;
-    this.wsURL = process.env.WS_URL || 'ws://localhost:7071';
+    this.wsURL = process.env.WS_URL || 'wss://ahj-diploma-6967.onrender.com';
     this.currentChunk = 0;
     this.fetching = false;
     this.decryption = false;

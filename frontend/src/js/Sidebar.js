@@ -24,7 +24,7 @@ export default class Sidebar {
     this.activeChatID = options.dialogID;
     this.userID = options.user;
     // this.baseURL = process.env.BASE_URL;
-    this.baseURL = process.env.BASE_URL || 'http://localhost:7071';
+    this.baseURL = process.env.BASE_URL || 'https://ahj-diploma-6967.onrender.com';
 
     this.onMessagesHeaderBtnsClick = this.onMessagesHeaderBtnsClick.bind(this);
     this.onBackBtnClick = this.onBackBtnClick.bind(this);

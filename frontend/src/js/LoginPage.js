@@ -21,7 +21,7 @@ export default class LoginPage {
 
     this.container = element;
     // this.baseURL = process.env.BASE_URL;
-    this.baseURL = process.env.BASE_URL || 'http://localhost:7071';
+    this.baseURL = process.env.BASE_URL || 'https://ahj-diploma-6967.onrender.com';
     this.mainPage = new MainPage(this.container, this.baseURL);
 
     this.onLoginFormSubmit = this.onLoginFormSubmit.bind(this);
